@@ -1,4 +1,7 @@
+saveExact: true
+
 shellEmulator: true
 
 onlyBuiltDependencies:
+  - esbuild
   - unrs-resolver
