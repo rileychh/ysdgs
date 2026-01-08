@@ -18,9 +18,13 @@
   "dependencies": {
     "@antfu/eslint-config": "6.7.3",
     "@nuxt/eslint": "1.12.1",
+    "@types/pg": "8.16.0",
+    "drizzle-kit": "0.31.8",
+    "drizzle-orm": "0.45.1",
     "eslint": "9.39.2",
     "eslint-plugin-format": "1.2.0",
     "nuxt": "4.2.2",
+    "pg": "8.16.3",
     "typescript": "5.9.3",
     "vue": "3.5.26",
     "vue-router": "4.6.4",
