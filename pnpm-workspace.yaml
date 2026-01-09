@@ -3,5 +3,6 @@ saveExact: true
 shellEmulator: true
 onlyBuiltDependencies:
   - esbuild
+  - simple-git-hooks
   - unrs-resolver
   - vue-demi
