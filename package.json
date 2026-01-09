@@ -26,6 +26,7 @@
     "drizzle-kit": "0.31.8",
     "drizzle-orm": "0.45.1",
     "eslint": "9.39.2",
+    "eslint-plugin-better-tailwindcss": "3.8.0",
     "eslint-plugin-format": "1.2.0",
     "lint-staged": "16.2.7",
     "lucide-vue-next": "0.562.0",

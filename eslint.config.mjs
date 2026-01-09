@@ -1,5 +1,6 @@
 // @ts-check
 import { antfu } from '@antfu/eslint-config'
+import betterTailwindcss from 'eslint-plugin-better-tailwindcss'
 import withNuxt from './.nuxt/eslint.config.mjs'
 
 export default withNuxt(
@@ -16,6 +17,18 @@ export default withNuxt(
       'style/operator-linebreak': ['error', 'after', { overrides: { '?': 'before', ':': 'before' } }],
       'vue/max-attributes-per-line': ['error'],
       'vue/attributes-order': ['error', { alphabetical: true }],
+    },
+  },
+  {
+    plugins: {
+      'better-tailwindcss': betterTailwindcss,
+    },
+    rules: {
+      ...betterTailwindcss.configs.stylistic.rules,
+      ...betterTailwindcss.configs.correctness.rules,
+    },
+    settings: {
+      'better-tailwindcss': { entryPoint: 'app/assets/css/tailwind.css' },
     },
   },
   {
